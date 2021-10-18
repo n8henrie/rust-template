@@ -24,7 +24,7 @@ type = "string"
 default = "nate@n8henrie.com"
 prompt = "Email?"
 
-[placeholders.name]
+[placeholders.year]
 type = "string"
 default = "2021"
 prompt = "Year?"
