@@ -7,6 +7,16 @@ assignees: ''
 
 ---
 
+Please make sure you've taken these steps before submitting a new issue:
+
+- [ ] Please use [codeblocks][1] for any code, config, program output, etc.
+- [ ] Include the Rust and {{ project-name }} version in your issue
+- [ ] Ensure you're running a supported version of Rust
+- [ ] Run {{ project-name }} in debug mode if applicable and include relevant
+      output
+- [ ] Search the existing (including closed) issues
+- [ ] Please use [codeblocks][1] for any code, config, program output, etc.
+
 ## Bug description
 
 <!-- A clear and concise description of what the bug is. -->
@@ -26,6 +36,8 @@ Steps to reproduce the behavior:
 
 <!-- A clear and concise description of what you expected to happen. -->
 
+## [WHYT](http://mattgemmell.com/what-have-you-tried)
+
 ## Screenshots
 
 <!-- If applicable, add screenshots to help explain your problem. -->
@@ -40,3 +52,5 @@ Steps to reproduce the behavior:
 ## Additional context
 
 <!-- Add any other context about the problem here. -->
+
+[1]: https://help.github.com/articles/creating-and-highlighting-code-blocks/

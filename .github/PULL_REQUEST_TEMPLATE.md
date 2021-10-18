@@ -1,12 +1,30 @@
-<!-- Please explain the changes you made -->
+## Description
 
-<!--
-Please, make sure:
-- you have read the contributing guidelines:
-  https://github.com/{{username}}/{{project-name}}/blob/main/docs/CONTRIBUTING.md
-- you have formatted the code using rustfmt:
-  https://github.com/rust-lang/rustfmt
-- you have checked that all tests pass, by running `cargo test --all`
-- you have updated the changelog (if needed):
-  https://github.com/{{username}}/{{project-name}}/blob/main/CHANGELOG.md
--->
+A few sentences describing the overall goals of the pull request's commits.
+
+## Status
+
+**READY/IN DEVELOPMENT**
+
+## Related Issues
+
+- [First related issue](https://github.com/n8henrie/{{ repo_name }}/issues/1)
+
+## Todos
+
+- [ ] Tests
+- [ ] Documentation
+
+## Steps to Test or Reproduce
+
+E.g.:
+
+```bash
+git checkout -b <feature_branch> master
+git pull https://github.com/<user>/{{ repo_name }}.git <feature_branch>
+go test -v
+```
+
+## Other notes
+
+

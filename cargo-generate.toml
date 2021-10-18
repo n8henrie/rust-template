@@ -4,10 +4,30 @@ cargo_generate_version = ">=0.10.0"
 [placeholders.username]
 type = "string"
 prompt = "GitHub username (or organization)?"
+default = "n8henrie"
 
 [placeholders.project-description]
 type = "string"
 prompt = "Project description?"
+
+[placeholders.repo_name]
+type = "string"
+prompt = "Repo name?"
+
+[placeholders.name]
+type = "string"
+default = "Nathan Henrie"
+prompt = "Author name?"
+
+[placeholders.email]
+type = "string"
+default = "nate@n8henrie.com"
+prompt = "Email?"
+
+[placeholders.name]
+type = "string"
+default = "2021"
+prompt = "Year?"
 
 [conditional.'crate_type == "lib"']
 ignore = [ "src/main.rs" ]
