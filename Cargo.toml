@@ -4,7 +4,6 @@ version = "0.1.0"
 authors = ["Nathan Henrie <nate@n8henrie.com>"]
 readme = "README.md"
 license = "MIT"
-license-file = "LICENSE"
 edition = "2021"
 description = "{{ project-description }}"
 repository = "https://github.com/{{ username }}/{{ repo_name }}"
