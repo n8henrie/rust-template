@@ -1,18 +1,22 @@
 [template]
 cargo_generate_version = ">=0.10.0"
 
-[placeholders.username]
+[placeholders.project_name]
 type = "string"
-prompt = "GitHub username (or organization)?"
-default = "n8henrie"
+prompt = "Project name?"
+
+[placeholders.repo_name]
+type = "string"
+prompt = "Repo name?"
 
 [placeholders.project-description]
 type = "string"
 prompt = "Project description?"
 
-[placeholders.repo_name]
+[placeholders.username]
 type = "string"
-prompt = "Repo name?"
+prompt = "GitHub username (or organization)?"
+default = "n8henrie"
 
 [placeholders.name]
 type = "string"

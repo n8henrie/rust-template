@@ -1,7 +1,7 @@
-use {{ repo_name }};
+use {{ project_name }};
 
 #[test]
-fn test_{{ repo_name }}() {
-    {{ repo_name }}::run();
+fn test_{{ project_name }}() {
+    {{ project_name }}::run();
     assert!(true)
 }
