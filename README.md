@@ -1,13 +1,8 @@
 # {{project-name}}
 
-master: [![master branch build status](https://github.com/n8henrie/{{
-cookiecutter.repo_name
-}}/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/n8henrie/{{
-cookiecutter.repo_name }}/actions/workflows/build.yml)
-<!-- dev: [![dev branch build status](https://github.com/n8henrie/{{
-cookiecutter.repo_name
-}}/actions/workflows/build.yml/badge.svg?branch=dev)](https://github.com/n8henrie/{{
-cookiecutter.repo_name }}/actions/workflows/build.yml) -->
+master: [![master branch build status](https://github.com/n8henrie/{{ repo_name }}/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/n8henrie/{{ repo_name }}/actions/workflows/build.yml)
+
+<!-- dev: [![dev branch build status](https://github.com/n8henrie/{{ repo_name }}/actions/workflows/build.yml/badge.svg?branch=dev)](https://github.com/n8henrie/{{ repo_name }}/actions/workflows/build.yml) -->
 
 {{ project-description }}
 
@@ -32,8 +27,8 @@ cookiecutter.repo_name }}/actions/workflows/build.yml) -->
 
 ### Development Setup
 
-1. Clone the repo: `git clone https://github.com/n8henrie/{{ cookiecutter.repo_name }} && cd
-   {{ cookiecutter.repo_name }}`
+1. Clone the repo: `git clone https://github.com/n8henrie/{{ repo_name }} && cd
+   {{ repo_name }}`
 - TODO
 
 ## Configuration
@@ -46,5 +41,5 @@ cookiecutter.repo_name }}/actions/workflows/build.yml) -->
 
 ## Troubleshooting / FAQ
 
-- How can I install an older / specific version of {{ cookiecutter.project_name }}?
+- How can I install an older / specific version of {{ project_name }}?
     - TODO
