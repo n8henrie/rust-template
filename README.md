@@ -1,8 +1,8 @@
 # {{project-name}}
 
-master: [![master branch build status](https://github.com/n8henrie/{{ repo_name }}/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/n8henrie/{{ repo_name }}/actions/workflows/build.yml)
+master: [![master branch build status](https://github.com/n8henrie/{{ repo_name }}/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/n8henrie/{{ repo_name }}/actions/workflows/ci.yml)
 
-<!-- dev: [![dev branch build status](https://github.com/n8henrie/{{ repo_name }}/actions/workflows/build.yml/badge.svg?branch=dev)](https://github.com/n8henrie/{{ repo_name }}/actions/workflows/build.yml) -->
+<!-- dev: [![dev branch build status](https://github.com/n8henrie/{{ repo_name }}/actions/workflows/ci.yml/badge.svg?branch=dev)](https://github.com/n8henrie/{{ repo_name }}/actions/workflows/ci.yml) -->
 
 {{ project-description }}
 
