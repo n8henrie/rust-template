@@ -1,10 +1,6 @@
 [template]
 cargo_generate_version = ">=0.10.0"
 
-[placeholders.project_name]
-type = "string"
-prompt = "Project name?"
-
 [placeholders.repo_name]
 type = "string"
 prompt = "Repo name?"
