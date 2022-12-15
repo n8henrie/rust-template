@@ -26,7 +26,7 @@ prompt = "Email?"
 
 [placeholders.year]
 type = "string"
-default = "2021"
+default = "2022"
 prompt = "Year?"
 
 [conditional.'crate_type == "lib"']
