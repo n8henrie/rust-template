@@ -77,7 +77,7 @@ jobs:
 
           ####### reduce binary size by removing debug symbols #######
           BINARY_NAME="{{project-name}}{% raw %}${{ matrix.job.binary-postfix }}{% endraw %}"
-          if [[ {{ "{% raw %}${{ matrix.job.target }}{% endraw %} == aarch64-unknown-linux-gnu ]]; then
+          if [[ "{% raw %}${{ matrix.job.target }}{% endraw %}" == aarch64-unknown-linux-gnu ]]; then
             GCC_PREFIX="aarch64-linux-gnu-"
           else
             GCC_PREFIX=""
@@ -89,7 +89,7 @@ jobs:
           tar czvf $RELEASE_NAME.tar.gz $BINARY_NAME
 
           ########## create sha256 ##########
-          if [[ {{ "{% raw %}${{ runner.os  }}{% endraw %}" == 'Windows' ]]; then
+          if [[ "{% raw %}${{ runner.os  }}{% endraw %}" == 'Windows' ]]; then
             certutil -hashfile $RELEASE_NAME.tar.gz sha256 | grep -E [A-Fa-f0-9]{64} > $RELEASE_NAME.sha256
           else
             shasum -a 256 $RELEASE_NAME.tar.gz > $RELEASE_NAME.sha256
