@@ -28,8 +28,11 @@ jobs:
           cargo doc \
             --no-deps \
             --document-private-items \
-            --all-features \
-            --workspace
+            --all-features
+            # --workspace
+          # Workaround to redirect to subdir/index.html for **non-workspace** projects
+          # https://dev.to/deciduously/prepare-your-rust-api-docs-for-github-pages-2n5i
+          echo '<meta http-equiv="refresh" content="0; url={{ project-name }}">' > target/doc/index.html
       - name: Upload artifact to Pages
         uses: actions/upload-pages-artifact@v1
         with:
