@@ -1,8 +1,8 @@
 # {{project-name}}
 
-master: [![master branch build status](https://github.com/n8henrie/{{ repo_name }}/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/n8henrie/{{ repo_name }}/actions/workflows/ci.yml)
+master: [![master branch build status](https://github.com/n8henrie/{{ repo-name }}/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/n8henrie/{{ repo-name }}/actions/workflows/ci.yml)
 
-<!-- dev: [![dev branch build status](https://github.com/n8henrie/{{ repo_name }}/actions/workflows/ci.yml/badge.svg?branch=dev)](https://github.com/n8henrie/{{ repo_name }}/actions/workflows/ci.yml) -->
+<!-- dev: [![dev branch build status](https://github.com/n8henrie/{{ repo-name }}/actions/workflows/ci.yml/badge.svg?branch=dev)](https://github.com/n8henrie/{{ repo-name }}/actions/workflows/ci.yml) -->
 
 {{ project-description }}
 
@@ -27,8 +27,8 @@ master: [![master branch build status](https://github.com/n8henrie/{{ repo_name 
 
 ### Development Setup
 
-1. Clone the repo: `git clone https://github.com/n8henrie/{{ repo_name }} && cd
-   {{ repo_name }}`
+1. Clone the repo: `git clone https://github.com/n8henrie/{{ repo-name }} && cd
+   {{ repo-name }}`
 - TODO
 
 ## Configuration
@@ -41,5 +41,5 @@ master: [![master branch build status](https://github.com/n8henrie/{{ repo_name 
 
 ## Troubleshooting / FAQ
 
-- How can I install an older / specific version of {{ project_name }}?
+- How can I install an older / specific version of {{ project-name }}?
     - TODO

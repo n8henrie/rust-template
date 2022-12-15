@@ -6,6 +6,6 @@ readme = "README.md"
 license = "MIT"
 edition = "2021"
 description = "{{ project-description }}"
-repository = "https://github.com/{{ username }}/{{ repo_name }}"
+repository = "https://github.com/{{ username }}/{{ repo-name }}"
 
 [dependencies]

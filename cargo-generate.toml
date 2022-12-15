@@ -1,7 +1,7 @@
 [template]
 cargo_generate_version = ">=0.10.0"
 
-[placeholders.repo_name]
+[placeholders.repo-name]
 type = "string"
 prompt = "Repo name?"
 

@@ -1,7 +1,7 @@
-use {{ project_name }};
+use {{ project-name }};
 
 #[test]
-fn test_{{ project_name }}() {
-    {{ project_name }}::run();
+fn test_{{ project-name }}() {
+    {{ project-name }}::run();
     assert!(true)
 }
