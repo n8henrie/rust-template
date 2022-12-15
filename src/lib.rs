@@ -1,3 +1,4 @@
+// #![warn(clippy::pedantic)]
 pub fn run() {
     println!("Hello, world!");
 }
