@@ -109,4 +109,4 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         uses: dtolnay/rust-toolchain@stable
-      - run cargo publish --token "{% raw %}${{ secrets.CARGO_API_KEY }}{% endraw %}"
+      - run: cargo publish --token "{% raw %}${{ secrets.CARGO_API_KEY }}{% endraw %}"
