@@ -1,13 +1,13 @@
-# {{project-name}}
+# remac
 
-master: [![master branch build status](https://github.com/n8henrie/{{ repo-name }}/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/n8henrie/{{ repo-name }}/actions/workflows/ci.yml)
+master: [![master branch build status](https://github.com/n8henrie/remac/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/n8henrie/remac/actions/workflows/build.yml)
 
-<!-- dev: [![dev branch build status](https://github.com/n8henrie/{{ repo-name }}/actions/workflows/ci.yml/badge.svg?branch=dev)](https://github.com/n8henrie/{{ repo-name }}/actions/workflows/ci.yml) -->
+<!-- dev: [![dev branch build status](https://github.com/n8henrie/remac/actions/workflows/build.yml/badge.svg?branch=dev)](https://github.com/n8henrie/remac/actions/workflows/build.yml) -->
 
-{{ project-description }}
+Change your MAC address
 
-[![Crates.io](https://img.shields.io/crates/v/{{project-name}}.svg)](https://crates.io/crates/{{project-name}})
-[![Docs.rs](https://docs.rs/{{project-name}}/badge.svg)](https://docs.rs/{{project-name}})
+[![Crates.io](https://img.shields.io/crates/v/remac.svg)](https://crates.io/crates/remac)
+[![Docs.rs](https://docs.rs/remac/badge.svg)](https://docs.rs/remac)
 
 ## Features
 
@@ -23,12 +23,12 @@ master: [![master branch build status](https://github.com/n8henrie/{{ repo-name 
 
 * Install the rust toolchain in order to have cargo installed by following
   [this](https://www.rust-lang.org/tools/install) guide.
-* run `cargo install {{project-name}}`
+* run `cargo install remac`
 
 ### Development Setup
 
-1. Clone the repo: `git clone https://github.com/n8henrie/{{ repo-name }} && cd
-   {{ repo-name }}`
+1. Clone the repo: `git clone https://github.com/n8henrie/remac && cd
+   remac`
 - TODO
 
 ## Configuration
@@ -41,5 +41,5 @@ master: [![master branch build status](https://github.com/n8henrie/{{ repo-name 
 
 ## Troubleshooting / FAQ
 
-- How can I install an older / specific version of {{ project-name }}?
+- How can I install an older / specific version of remac?
     - TODO

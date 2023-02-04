@@ -1,5 +1,7 @@
+use remac;
+
 #[test]
-fn test_{{ project-name }}() {
-    {{ project-name }}::run();
-    assert_eq!(2 + 2, 4)
+fn test_remac() {
+    remac::run();
+    assert!(true)
 }
