@@ -1,11 +1,7 @@
 [template]
 cargo_generate_version = ">=0.10.0"
 
-[placeholders.project_name]
-type = "string"
-prompt = "Project name?"
-
-[placeholders.repo_name]
+[placeholders.repo-name]
 type = "string"
 prompt = "Repo name?"
 
@@ -30,11 +26,8 @@ prompt = "Email?"
 
 [placeholders.year]
 type = "string"
-default = "2021"
+default = "2022"
 prompt = "Year?"
 
 [conditional.'crate_type == "lib"']
 ignore = [ "src/main.rs" ]
-
-[conditional.'crate_type == "bin"']
-ignore = [ "src/lib.rs" ]

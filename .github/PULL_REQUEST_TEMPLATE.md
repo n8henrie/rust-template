@@ -8,7 +8,7 @@ A few sentences describing the overall goals of the pull request's commits.
 
 ## Related Issues
 
-- [First related issue](https://github.com/n8henrie/{{ repo_name }}/issues/1)
+- [First related issue](https://github.com/n8henrie/{{ repo-name }}/issues/1)
 
 ## Todos
 
@@ -21,10 +21,8 @@ E.g.:
 
 ```bash
 git checkout -b <feature_branch> master
-git pull https://github.com/<user>/{{ repo_name }}.git <feature_branch>
+git pull https://github.com/<user>/{{ repo-name }}.git <feature_branch>
 go test -v
 ```
 
 ## Other notes
-
-

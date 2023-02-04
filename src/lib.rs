@@ -1,3 +1,8 @@
+// #![warn(clippy::pedantic)]
+pub fn run() {
+    println!("Hello, world!");
+}
+
 #[cfg(test)]
 mod tests {
     #[test]
