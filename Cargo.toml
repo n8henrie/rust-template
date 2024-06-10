@@ -9,3 +9,6 @@ description = "Change your MAC address"
 repository = "https://github.com/n8henrie/remac"
 
 [dependencies]
+
+[lints.clippy]
+pedantic = "warn"
