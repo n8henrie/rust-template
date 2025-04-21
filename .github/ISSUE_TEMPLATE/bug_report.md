@@ -10,9 +10,9 @@ assignees: ''
 Please make sure you've taken these steps before submitting a new issue:
 
 - [ ] Please use [codeblocks][1] for any code, config, program output, etc.
-- [ ] Include the Rust and remac version in your issue
+- [ ] Include the Rust and {{ project-name }} version in your issue
 - [ ] Ensure you're running a supported version of Rust
-- [ ] Run remac in debug mode if applicable and include relevant
+- [ ] Run {{ project-name }} in debug mode if applicable and include relevant
       output
 - [ ] Search the existing (including closed) issues
 - [ ] Please use [codeblocks][1] for any code, config, program output, etc.
@@ -47,7 +47,7 @@ Steps to reproduce the behavior:
 <!-- Please fill the following information. -->
 
 - OS: [e.g. Ubuntu 20.04]
-- remac version: [e.g. 0.1.0]
+- {{project-name}} version: [e.g. 0.1.0]
 
 ## Additional context
 

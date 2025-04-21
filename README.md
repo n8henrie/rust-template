@@ -1,13 +1,13 @@
-# remac
+# {{project-name}}
 
-master: [![master branch build status](https://github.com/n8henrie/remac/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/n8henrie/remac/actions/workflows/build.yml)
+master: [![master branch build status](https://github.com/n8henrie/{{ repo-name }}/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/n8henrie/{{ repo-name }}/actions/workflows/ci.yml)
 
-<!-- dev: [![dev branch build status](https://github.com/n8henrie/remac/actions/workflows/build.yml/badge.svg?branch=dev)](https://github.com/n8henrie/remac/actions/workflows/build.yml) -->
+<!-- dev: [![dev branch build status](https://github.com/n8henrie/{{ repo-name }}/actions/workflows/ci.yml/badge.svg?branch=dev)](https://github.com/n8henrie/{{ repo-name }}/actions/workflows/ci.yml) -->
 
-Change your MAC address
+{{ project-description }}
 
-[![Crates.io](https://img.shields.io/crates/v/remac.svg)](https://crates.io/crates/remac)
-[![Docs.rs](https://docs.rs/remac/badge.svg)](https://docs.rs/remac)
+[![Crates.io](https://img.shields.io/crates/v/{{project-name}}.svg)](https://crates.io/crates/{{project-name}})
+[![Docs.rs](https://docs.rs/{{project-name}}/badge.svg)](https://docs.rs/{{project-name}})
 
 ## Features
 
@@ -23,12 +23,12 @@ Change your MAC address
 
 * Install the rust toolchain in order to have cargo installed by following
   [this](https://www.rust-lang.org/tools/install) guide.
-* run `cargo install remac`
+* run `cargo install {{project-name}}`
 
 ### Development Setup
 
-1. Clone the repo: `git clone https://github.com/n8henrie/remac && cd
-   remac`
+1. Clone the repo: `git clone https://github.com/n8henrie/{{ repo-name }} && cd
+   {{ repo-name }}`
 - TODO
 
 ## Configuration
@@ -41,5 +41,5 @@ Change your MAC address
 
 ## Troubleshooting / FAQ
 
-- How can I install an older / specific version of remac?
+- How can I install an older / specific version of {{ project-name }}?
     - TODO

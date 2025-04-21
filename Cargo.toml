@@ -1,12 +1,12 @@
 [package]
-name = "remac"
+name = "{{project-name}}"
 version = "0.1.0"
 authors = ["Nathan Henrie <nate@n8henrie.com>"]
 readme = "README.md"
 license = "MIT"
 edition = "2021"
-description = "Change your MAC address"
-repository = "https://github.com/n8henrie/remac"
+description = "{{ project-description }}"
+repository = "https://github.com/{{ username }}/{{ repo-name }}"
 
 [dependencies]
 

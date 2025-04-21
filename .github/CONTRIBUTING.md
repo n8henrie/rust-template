@@ -9,7 +9,7 @@ You can contribute in many ways:
 
 ### Report Bugs
 
-Report bugs at <https://github.com/n8henrie/remac/issues>.
+Report bugs at <https://github.com/{{ username }}/{{ repo-name }}/issues>.
 
 If you are reporting a bug, please include:
 
@@ -29,14 +29,14 @@ open to whoever wants to implement it.
 
 ### Write Documentation
 
-remac could always use more documentation, whether as part of the official
-remac docs, in docstrings, or even on the web in blog posts, articles, and
-such.
+{{ project-name }} could always use more documentation, whether as
+part of the official {{ project-name }} docs, in docstrings, or
+even on the web in blog posts, articles, and such.
 
 ### Submit Feedback
 
 The best way to send feedback is to file an issue at
-<https://github.com/n8henrie/remac/issues>.
+<https://github.com/{{ username }}/{{ repo-name }}/issues>.
 
 If you are proposing a feature:
 
@@ -48,13 +48,13 @@ If you are proposing a feature:
 
 ## Get Started!
 
-Ready to contribute? Here's how to set up remac
+Ready to contribute? Here's how to set up {{ repo-name }}
 for local development.
 
-1.  Fork the remac repo on GitHub.
+1.  Fork the {{ repo-name }} repo on GitHub.
 1.  Clone your fork locally:
 
-        $ git clone git@github.com:your_name_here/remac.git
+        $ git clone git@github.com:your_name_here/{{ repo-name }}.git
 
 1.  Create a branch for local development:
 
@@ -84,7 +84,7 @@ Before you submit a pull request, check that it meets these guidelines:
     the feature to the list in README.md
 1.  The pull request should work for Go >= 1.7. If I have included a
     `.travis.yml` file in the repo, check
-    <https://travis-ci.org/n8henrie/remac/pull_requests>
+    <https://travis-ci.org/n8henrie/{{ repo-name }}/pull_requests>
     and make sure that the tests pass for all supported Go versions.
 
 ## Tips

@@ -2,7 +2,7 @@
 
 ## Development Lead
 
-- Nathan Henrie <nate@n8henrie.com>
+- {{ name }} <{{ email }}>
 
 ## Contributors
 
